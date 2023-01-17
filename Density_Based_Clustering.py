@@ -14,7 +14,7 @@ df_data = df.iloc[0:5000,[2,5,8,9]]
 print(df_data)
 
 
-# StandardStandardize features by removing the mean and scaling to unit variance.
+# The StandardScaler() method used to Standardize features by removing the mean and scaling to unit variance.
 scaler = StandardScaler()
 df_data = scaler.fit_transform(df_data)
 
